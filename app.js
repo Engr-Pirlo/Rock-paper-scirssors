@@ -5,6 +5,7 @@ const computerScoreEl = document.getElementById('computer-score')
 
 let playScore = 0;
 let computerScore = 0;
+
 buttons.forEach(button =>{
    button.addEventListener('click', ()=>{
     // console.log("User Choices", button.id , "computer Choices" ,computerChoose())
